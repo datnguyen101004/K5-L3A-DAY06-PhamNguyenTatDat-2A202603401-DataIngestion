@@ -1,0 +1,46 @@
+{
+  "strategy": "fixed_128",
+  "document_id": "WPS5288",
+  "source": "WPS5288.pdf",
+  "total_pages": 56,
+  "content_pages": 56,
+  "total_chunks": 309,
+  "total_tokens": 36082,
+  "avg_tokens_per_chunk": 116.77,
+  "total_chars": 169759,
+  "embedding_model": "qwen3.7-text-embedding",
+  "embedding_dimensions": 1024,
+  "embedding_time_seconds": 37.04,
+  "sample_chunks": [
+    {
+      "chunk_id": "WPS5288_p1_c0",
+      "page": 1,
+      "token_count": 82,
+      "text": "Policy Research Working Paper 5288\nThe Payout Phase of Pension Systems\nA Comparison of Five Countries\nRoberto Rocha\nDimitri Vittas\nHeinz P . Rudolph\nThe World Bank\nFinancial and Private Sector Develop..."
+    },
+    {
+      "chunk_id": "WPS5288_p2_c0",
+      "page": 2,
+      "token_count": 128,
+      "text": "Produced by the Research Support T eam\nAbstract\nThe Policy Research Working Paper Series disseminates the findings of work in progress to encourage the exchange of ideas about development\nissues. An o..."
+    },
+    {
+      "chunk_id": "WPS5288_p2_c1",
+      "page": 2,
+      "token_count": 128,
+      "text": "Bank and\nits affiliated organizations, or those of the Executive Directors of the World Bank or the governments they represent.\nPolicy Research Working Paper 5288\nThis paper provides a comparative sum..."
+    },
+    {
+      "chunk_id": "WPS5288_p2_c2",
+      "page": 2,
+      "token_count": 128,
+      "text": "Financial and Private Sector Development—is part of a larger effort in the department to study pension systems and the\ndevelopment of markets for retirement products. Policy Research Working Papers ar..."
+    },
+    {
+      "chunk_id": "WPS5288_p2_c3",
+      "page": 2,
+      "token_count": 21,
+      "text": "The\npaper summarizes the experience of these countries and\nhighlights the lessons they offer to other countries."
+    }
+  ]
+}

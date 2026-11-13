@@ -1,0 +1,1510 @@
+{
+  "config": "A",
+  "config_label": "Config A: Fixed-size 128 (No Filter)",
+  "is_hybrid": false,
+  "apply_filter": false,
+  "embedding_model": "qwen3.7-text-embedding",
+  "dev_metrics": {
+    "total": 15,
+    "hit_at_1_count": 12,
+    "hit_at_1_rate": 0.8,
+    "evidence_hit_at_3_count": 12,
+    "evidence_hit_at_3_rate": 0.8
+  },
+  "test_metrics": {
+    "total": 5,
+    "hit_at_1_count": 2,
+    "hit_at_1_rate": 0.4,
+    "evidence_hit_at_3_count": 5,
+    "evidence_hit_at_3_rate": 1.0
+  },
+  "overall_metrics": {
+    "total": 20,
+    "hit_at_1_count": 14,
+    "hit_at_1_rate": 0.7,
+    "evidence_hit_at_3_count": 17,
+    "evidence_hit_at_3_rate": 0.85
+  },
+  "traces": [
+    {
+      "question_id": "q01",
+      "question": "Which five countries are compared in this study of pension payout phases?",
+      "split": "dev",
+      "hit_at_1": true,
+      "evidence_hit_at_3": true,
+      "top_hits": [
+        {
+          "rank": 1,
+          "chunk_id": "WPS5288_p8_c0",
+          "document_id": "WPS5288",
+          "page": 8,
+          "score": 0.7964211702346802,
+          "text": "2\n\n1. Introduction\n\nThis paper provides a comparative summary of the payout phase in five countries. All\nfive countries (Australia, Chile, Denmark, Sw eden, and Switzerland) have large pension\nsystems with mandatory or quasi-mandatory re tirement savings schemes that are mostly\nbased on defined contribution (DC) plans. But the five countries also exhibit important\ndifferences in the structure and role of di fferent pillars, in the regulation of payout\noptions, in the level of annuitization, in market structure, in capital regulations and in risk\nmanagement and use of risk sharing arra ngements. The",
+          "metadata": {
+            "year": 2010,
+            "source": "WPS5288.pdf",
+            "is_empty": false,
+            "strategy": "fixed_128",
+            "char_count": 2919,
+            "char_length": 605,
+            "chunk_index": 0,
+            "document_id": "WPS5288",
+            "token_count": 128,
+            "document_type": "working_paper"
+          },
+          "is_hit": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "WPS5288_p2_c1",
+          "document_id": "WPS5288",
+          "page": 2,
+          "score": 0.7784586548805237,
+          "text": "Bank and\nits affiliated organizations, or those of the Executive Directors of the World Bank or the governments they represent.\nPolicy Research Working Paper 5288\nThis paper provides a comparative summary of the\npayout phase of pension systems in five countries—\nAustralia, Chile, Denmark, Sweden, and Switzerland. All\nfive countries have large pension systems with mandatory\nor quasi-mandatory retirement savings schemes. But they\nexhibit important differences in the structure and role\nThis paper—a product of the Non Bank Financial Institutions Group, Global Capital Markets Development Department,\nFinancial and Private Sector Development—is part of a larger effort in the department to study",
+          "metadata": {
+            "year": 2010,
+            "source": "WPS5288.pdf",
+            "is_empty": false,
+            "strategy": "fixed_128",
+            "char_count": 1853,
+            "char_length": 696,
+            "chunk_index": 1,
+            "document_id": "WPS5288",
+            "token_count": 128,
+            "document_type": "working_paper"
+          },
+          "is_hit": false
+        },
+        {
+          "rank": 3,
+          "chunk_id": "WPS5288_p1_c0",
+          "document_id": "WPS5288",
+          "page": 1,
+          "score": 0.7573722890171714,
+          "text": "Policy Research Working Paper 5288\nThe Payout Phase of Pension Systems\nA Comparison of Five Countries\nRoberto Rocha\nDimitri Vittas\nHeinz P . Rudolph\nThe World Bank\nFinancial and Private Sector Development\nNon Bank Financial Institutions Group\nApril 2010\nWPS5288\nPublic Disclosure Authorized\nPublic Disclosure Authorized\nPublic Disclosure Authorized\nPublic Disclosure Authorized",
+          "metadata": {
+            "year": 2010,
+            "source": "WPS5288.pdf",
+            "is_empty": false,
+            "strategy": "fixed_128",
+            "char_count": 377,
+            "char_length": 377,
+            "chunk_index": 0,
+            "document_id": "WPS5288",
+            "token_count": 82,
+            "document_type": "working_paper"
+          },
+          "is_hit": false
+        }
+      ],
+      "type": "truc_tiep",
+      "filter_applied": null
+    },
+    {
+      "question_id": "q02",
+      "question": "Who are the authors of the Policy Research Working Paper 5288?",
+      "split": "dev",
+      "hit_at_1": true,
+      "evidence_hit_at_3": true,
+      "top_hits": [
+        {
+          "rank": 1,
+          "chunk_id": "WPS5288_p1_c0",
+          "document_id": "WPS5288",
+          "page": 1,
+          "score": 0.6708796016789207,
+          "text": "Policy Research Working Paper 5288\nThe Payout Phase of Pension Systems\nA Comparison of Five Countries\nRoberto Rocha\nDimitri Vittas\nHeinz P . Rudolph\nThe World Bank\nFinancial and Private Sector Development\nNon Bank Financial Institutions Group\nApril 2010\nWPS5288\nPublic Disclosure Authorized\nPublic Disclosure Authorized\nPublic Disclosure Authorized\nPublic Disclosure Authorized",
+          "metadata": {
+            "year": 2010,
+            "source": "WPS5288.pdf",
+            "is_empty": false,
+            "strategy": "fixed_128",
+            "char_count": 377,
+            "char_length": 377,
+            "chunk_index": 0,
+            "document_id": "WPS5288",
+            "token_count": 82,
+            "document_type": "working_paper"
+          },
+          "is_hit": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "WPS5288_p2_c0",
+          "document_id": "WPS5288",
+          "page": 2,
+          "score": 0.646716436939453,
+          "text": "Produced by the Research Support T eam\nAbstract\nThe Policy Research Working Paper Series disseminates the findings of work in progress to encourage the exchange of ideas about development\nissues. An objective of the series is to get the findings out quickly, even if the presentations are less than fully polished. The papers carry the\nnames of the authors and should be cited accordingly. The findings, interpretations, and conclusions expressed in this paper are entirely those\nof the authors. They do not necessarily represent the views of the International Bank for Reconstruction and Development/World Bank and\nits affiliated organizations, or those of the Executive Directors of the World",
+          "metadata": {
+            "year": 2010,
+            "source": "WPS5288.pdf",
+            "is_empty": false,
+            "strategy": "fixed_128",
+            "char_count": 1853,
+            "char_length": 694,
+            "chunk_index": 0,
+            "document_id": "WPS5288",
+            "token_count": 128,
+            "document_type": "working_paper"
+          },
+          "is_hit": false
+        },
+        {
+          "rank": 3,
+          "chunk_id": "WPS5288_p2_c1",
+          "document_id": "WPS5288",
+          "page": 2,
+          "score": 0.5633430145178439,
+          "text": "Bank and\nits affiliated organizations, or those of the Executive Directors of the World Bank or the governments they represent.\nPolicy Research Working Paper 5288\nThis paper provides a comparative summary of the\npayout phase of pension systems in five countries—\nAustralia, Chile, Denmark, Sweden, and Switzerland. All\nfive countries have large pension systems with mandatory\nor quasi-mandatory retirement savings schemes. But they\nexhibit important differences in the structure and role\nThis paper—a product of the Non Bank Financial Institutions Group, Global Capital Markets Development Department,\nFinancial and Private Sector Development—is part of a larger effort in the department to study",
+          "metadata": {
+            "year": 2010,
+            "source": "WPS5288.pdf",
+            "is_empty": false,
+            "strategy": "fixed_128",
+            "char_count": 1853,
+            "char_length": 696,
+            "chunk_index": 1,
+            "document_id": "WPS5288",
+            "token_count": 128,
+            "document_type": "working_paper"
+          },
+          "is_hit": false
+        }
+      ],
+      "type": "truc_tiep",
+      "filter_applied": null
+    },
+    {
+      "question_id": "q03",
+      "question": "When was the Policy Research Working Paper 5288 published?",
+      "split": "dev",
+      "hit_at_1": true,
+      "evidence_hit_at_3": true,
+      "top_hits": [
+        {
+          "rank": 1,
+          "chunk_id": "WPS5288_p1_c0",
+          "document_id": "WPS5288",
+          "page": 1,
+          "score": 0.6848183854086727,
+          "text": "Policy Research Working Paper 5288\nThe Payout Phase of Pension Systems\nA Comparison of Five Countries\nRoberto Rocha\nDimitri Vittas\nHeinz P . Rudolph\nThe World Bank\nFinancial and Private Sector Development\nNon Bank Financial Institutions Group\nApril 2010\nWPS5288\nPublic Disclosure Authorized\nPublic Disclosure Authorized\nPublic Disclosure Authorized\nPublic Disclosure Authorized",
+          "metadata": {
+            "year": 2010,
+            "source": "WPS5288.pdf",
+            "is_empty": false,
+            "strategy": "fixed_128",
+            "char_count": 377,
+            "char_length": 377,
+            "chunk_index": 0,
+            "document_id": "WPS5288",
+            "token_count": 82,
+            "document_type": "working_paper"
+          },
+          "is_hit": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "WPS5288_p2_c0",
+          "document_id": "WPS5288",
+          "page": 2,
+          "score": 0.6653722722939337,
+          "text": "Produced by the Research Support T eam\nAbstract\nThe Policy Research Working Paper Series disseminates the findings of work in progress to encourage the exchange of ideas about development\nissues. An objective of the series is to get the findings out quickly, even if the presentations are less than fully polished. The papers carry the\nnames of the authors and should be cited accordingly. The findings, interpretations, and conclusions expressed in this paper are entirely those\nof the authors. They do not necessarily represent the views of the International Bank for Reconstruction and Development/World Bank and\nits affiliated organizations, or those of the Executive Directors of the World",
+          "metadata": {
+            "year": 2010,
+            "source": "WPS5288.pdf",
+            "is_empty": false,
+            "strategy": "fixed_128",
+            "char_count": 1853,
+            "char_length": 694,
+            "chunk_index": 0,
+            "document_id": "WPS5288",
+            "token_count": 128,
+            "document_type": "working_paper"
+          },
+          "is_hit": false
+        },
+        {
+          "rank": 3,
+          "chunk_id": "WPS5288_p56_c4",
+          "document_id": "WPS5288",
+          "page": 56,
+          "score": 0.5590343808552254,
+          "text": "Denmark', Policy Research\nWorking Paper No.4505. Washington, D.C.: The World Bank.\n\nVittas, Dimitri, Gregorio Impavido and Ronan O'Connor. 2008. 'Upgrading the\nInvestment Policy Framework of Public Pension Funds', Policy Research Working Paper\nNo. 4499. Washington, D.C.: The World Bank.\n\nVittas, Dimitri, Heinz Rudolph and John Pollner. 2010. ‘Designing the Payout Phase of\nFunded Pension Pillars in Central and Eastern European Countries’, mimeo. Washington,\nD.C.: The World",
+          "metadata": {
+            "year": 2010,
+            "source": "WPS5288.pdf",
+            "is_empty": false,
+            "strategy": "fixed_128",
+            "char_count": 2049,
+            "char_length": 476,
+            "chunk_index": 4,
+            "document_id": "WPS5288",
+            "token_count": 128,
+            "document_type": "working_paper"
+          },
+          "is_hit": false
+        }
+      ],
+      "type": "truc_tiep",
+      "filter_applied": null
+    },
+    {
+      "question_id": "q04",
+      "question": "Why is the fiscal cost of public retirement pensions lower in Australia compared to other countries?",
+      "split": "dev",
+      "hit_at_1": true,
+      "evidence_hit_at_3": true,
+      "top_hits": [
+        {
+          "rank": 1,
+          "chunk_id": "WPS5288_p13_c0",
+          "document_id": "WPS5288",
+          "page": 13,
+          "score": 0.7547183183003487,
+          "text": "7\nbenefits, the universal coverage of the pe nsion systems and the age structure of the\npopulations. The cost of public pensions is lower in Australia because the level of the age\npension is much smaller and the population is significantly younger. The lowest level is\nfound in Chile, mainly because the public benefit is much lower and the pension\nsupplement is paid to low-income pensione rs. The younger demographic structure is also\na factor.\n\n2.3 Structure of Private Pillars\n\nAll countries have mandatory or quasi-ma ndatory second pillars based on defined\ncontribution schemes, but this pillar is organ",
+          "metadata": {
+            "year": 2010,
+            "source": "WPS5288.pdf",
+            "is_empty": false,
+            "strategy": "fixed_128",
+            "char_count": 1752,
+            "char_length": 609,
+            "chunk_index": 0,
+            "document_id": "WPS5288",
+            "token_count": 128,
+            "document_type": "working_paper"
+          },
+          "is_hit": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "WPS5288_p10_c0",
+          "document_id": "WPS5288",
+          "page": 10,
+          "score": 0.7245246500343502,
+          "text": "4\n2.2 Structure and Cost of Public Pillars\n\nThere are large differences in the structure of the zero pillars among th ese five countries\n(Table 3). Australia and Denmark offer unive rsal pensions finan ced from general tax\nrevenues. These are subject to clawback pr ovisions. Denmark also pays a supplement to\nlow income pensioners. The level of the unive rsal benefit is 25 percent of the average\nwage in Australia for single pensioners a nd nearly 42 percent for couples. In Denmark\nthe combined universal pension and supplement amount to 35 percent of average\nearn",
+          "metadata": {
+            "year": 2010,
+            "source": "WPS5288.pdf",
+            "is_empty": false,
+            "strategy": "fixed_128",
+            "char_count": 2320,
+            "char_length": 567,
+            "chunk_index": 0,
+            "document_id": "WPS5288",
+            "token_count": 128,
+            "document_type": "working_paper"
+          },
+          "is_hit": false
+        },
+        {
+          "rank": 3,
+          "chunk_id": "WPS5288_p9_c1",
+          "document_id": "WPS5288",
+          "page": 9,
+          "score": 0.7052636077528713,
+          "text": "(2007); Palmer\n(2008); Rocha and Rudolph (2010); Rocha and Thorburn (2007); and Vittas (2008).\n\nTable 2 describes in greater detail the overall structure of the five pension systems. More\ndetails on the benefits and costs of different pillars are offered below.\n\nTable 2: Overall Structure of the National Pension Systems\nCountry\n\nPublic Unfunded\n\n(Pillars 0 and 1)\nMandatory or\nQuasi-Mandatory Funded\n(Pillar 2)\nVoluntary Funded\n\n(Pillar 3)\nAustralia Universal pension financed from",
+          "metadata": {
+            "year": 2010,
+            "source": "WPS5288.pdf",
+            "is_empty": false,
+            "strategy": "fixed_128",
+            "char_count": 2959,
+            "char_length": 483,
+            "chunk_index": 1,
+            "document_id": "WPS5288",
+            "token_count": 128,
+            "document_type": "working_paper"
+          },
+          "is_hit": false
+        }
+      ],
+      "type": "dien_dat_lai",
+      "filter_applied": null
+    },
+    {
+      "question_id": "q05",
+      "question": "What real rate of interest is used to calculate NDC annuities in Sweden?",
+      "split": "dev",
+      "hit_at_1": true,
+      "evidence_hit_at_3": true,
+      "top_hits": [
+        {
+          "rank": 1,
+          "chunk_id": "WPS5288_p12_c0",
+          "document_id": "WPS5288",
+          "page": 12,
+          "score": 0.6974625795323428,
+          "text": "6\nannuities are calculated with cohort life tables and a real rate of interest of 1.6 percent.\nThey are indexed to prices but are adjusted for real wage increases above 1.6 percent.\nThe NDC scheme is supported by five buffer funds that have been created since the\nintroduction of the general supplementary pension scheme (A TP) in 1960. The buffer\nfunds, known as AP funds 1 to 4 and 6, have accumulated assets equivalent to 30 percent\nof GDP.\n\nSwitzerland operates an earnings-related and unfunded first pillar. The contribution rate\nis 8.",
+          "metadata": {
+            "year": 2010,
+            "source": "WPS5288.pdf",
+            "is_empty": false,
+            "strategy": "fixed_128",
+            "char_count": 2137,
+            "char_length": 540,
+            "chunk_index": 0,
+            "document_id": "WPS5288",
+            "token_count": 128,
+            "document_type": "working_paper"
+          },
+          "is_hit": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "WPS5288_p11_c4",
+          "document_id": "WPS5288",
+          "page": 11,
+          "score": 0.684958478360131,
+          "text": "Rudolph (2010); Rocha and Thorburn (2007); and Vittas (2008).\n\nSweden implemented a radical reform of its pension system in the mid-1990s. A new\npublic unfunded NDC scheme was introduced to replace the pre-existing flat and\nearnings-related (ATP) DB pensions. The cont ribution rate for the NDC scheme is 16\npercent of covered earnings . Out-of-employment spells are covered by government\ncontributions and thus most workers are likely to have full contri bution records. The\ntargeted replacement rate for people on average earnings and retiring",
+          "metadata": {
+            "year": 2010,
+            "source": "WPS5288.pdf",
+            "is_empty": false,
+            "strategy": "fixed_128",
+            "char_count": 2822,
+            "char_length": 545,
+            "chunk_index": 4,
+            "document_id": "WPS5288",
+            "token_count": 128,
+            "document_type": "working_paper"
+          },
+          "is_hit": false
+        },
+        {
+          "rank": 3,
+          "chunk_id": "WPS5288_p11_c5",
+          "document_id": "WPS5288",
+          "page": 11,
+          "score": 0.6790412866783528,
+          "text": "ion records. The\ntargeted replacement rate for people on average earnings and retiring at normal retirement\nage amounts to 39 percent.\n\nIn the NDC scheme, the retireme nt decision is left to indi vidual workers (within certain\nlimits) but the pension benefit is adjusted to take account of the remaining life expectancy\non retirement. NDC balances earn notional in terest at 1.6 percent in real terms and NDC",
+          "metadata": {
+            "year": 2010,
+            "source": "WPS5288.pdf",
+            "is_empty": false,
+            "strategy": "fixed_128",
+            "char_count": 2822,
+            "char_length": 408,
+            "chunk_index": 5,
+            "document_id": "WPS5288",
+            "token_count": 91,
+            "document_type": "working_paper"
+          },
+          "is_hit": false
+        }
+      ],
+      "type": "truc_tiep",
+      "filter_applied": null
+    },
+    {
+      "question_id": "q06",
+      "question": "How is the distortion of using identical conversion factors for men and women alleviated in Switzerland?",
+      "split": "dev",
+      "hit_at_1": true,
+      "evidence_hit_at_3": true,
+      "top_hits": [
+        {
+          "rank": 1,
+          "chunk_id": "WPS5288_p22_c0",
+          "document_id": "WPS5288",
+          "page": 22,
+          "score": 0.6404137802247343,
+          "text": "16\nBut the distortion of applying the same convers ion factor to men and women is mitigated\nby the compulsory use of joint life annuities. In addition, the retirement age of women is\ngradually being raised to that of men. A pplying the same uniform annuity conversion\nfactor to single persons, especially si ngle men, imposes a heavy penalty on them.\nNevertheless, available evidence shows that si ngle men are as likely to use life annuities\nas married men.8\n\nTable 7: Types of Life Annuities\nPrice\nRegulation\nTypes and Terms\nAustralia None Various",
+          "metadata": {
+            "year": 2010,
+            "source": "WPS5288.pdf",
+            "is_empty": false,
+            "strategy": "fixed_128",
+            "char_count": 2609,
+            "char_length": 549,
+            "chunk_index": 0,
+            "document_id": "WPS5288",
+            "token_count": 128,
+            "document_type": "working_paper"
+          },
+          "is_hit": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "WPS5288_p27_c3",
+          "document_id": "WPS5288",
+          "page": 27,
+          "score": 0.6402836847220779,
+          "text": "of workers, neither country has so far\ncreated a central register with a systematic compilation of performance data on different\nproviders. The complexity of collective la bor agreements, which cover many types of\nbenefits, has also impeded the development of a central database. A central register of\nperformance data would be indispensable in a system of non-employer-based individual\naccounts.\n\nIn Switzerland, the scope for marketing is even more limited si nce the pricing of\nannuities in the obligatory part of the second pillar is subj ect to federal regulation. The\nsame annuity conversion factor is used for men and women, although women live",
+          "metadata": {
+            "year": 2010,
+            "source": "WPS5288.pdf",
+            "is_empty": false,
+            "strategy": "fixed_128",
+            "char_count": 3160,
+            "char_length": 651,
+            "chunk_index": 3,
+            "document_id": "WPS5288",
+            "token_count": 128,
+            "document_type": "working_paper"
+          },
+          "is_hit": false
+        },
+        {
+          "rank": 3,
+          "chunk_id": "WPS5288_p21_c5",
+          "document_id": "WPS5288",
+          "page": 21,
+          "score": 0.63999589204776,
+          "text": "of a minimum annuity conve rsion factor aimed at protecting workers\nfrom annual fluctuations of investment returns and interest rates but keeping it unchanged\nfor two decades has underscored the pitfalls of price regulation (Buetler and Ruesch\n2007:53).\n\nThe same annuity conversion factor is used for men and women as well as married and\nsingle persons. Women have a l onger life expectancy and used to retire at a younger age.",
+          "metadata": {
+            "year": 2010,
+            "source": "WPS5288.pdf",
+            "is_empty": false,
+            "strategy": "fixed_128",
+            "char_count": 3055,
+            "char_length": 428,
+            "chunk_index": 5,
+            "document_id": "WPS5288",
+            "token_count": 92,
+            "document_type": "working_paper"
+          },
+          "is_hit": false
+        }
+      ],
+      "type": "dieu_kien",
+      "filter_applied": null
+    },
+    {
+      "question_id": "q07",
+      "question": "Are occupational plans in Australia active providers of annuities?",
+      "split": "dev",
+      "hit_at_1": true,
+      "evidence_hit_at_3": true,
+      "top_hits": [
+        {
+          "rank": 1,
+          "chunk_id": "WPS5288_p28_c0",
+          "document_id": "WPS5288",
+          "page": 28,
+          "score": 0.6980935543207396,
+          "text": "22\nTable 9: Marketing Regulation\nTypes and Terms\nAustralia Occupational plans are not active providers of annuities.\nMarketing of annuities is subject to ordinary conduct rules.\nChile .\n\nLicensing requirements for pension advisors.\nCaps on broker commissions.\nElectronic quotation system.\nDenmark: ATP No marketing is involved.\nDenmark: Other Annuities are provid ed through occupational plans.\nMarketing focuses on enhancing brand names, competition\nfor mandates, declaration of bonuses.\nSweden: PPM No marketing is involved other than creation of brand\nnames by decentralized asset managers.\nSweden: Other Annuities are provided through occupational plans.\nMarketing",
+          "metadata": {
+            "year": 2010,
+            "source": "WPS5288.pdf",
+            "is_empty": false,
+            "strategy": "fixed_128",
+            "char_count": 2915,
+            "char_length": 668,
+            "chunk_index": 0,
+            "document_id": "WPS5288",
+            "token_count": 128,
+            "document_type": "working_paper"
+          },
+          "is_hit": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "WPS5288_p33_c4",
+          "document_id": "WPS5288",
+          "page": 33,
+          "score": 0.6780628157816652,
+          "text": "compared to 74 percent for retirees ag ed between 65 and 74. While\nother factors may explain part of this decline, Palmer infers that this is mainly due to the\nextensive use of term annuities from occupati onal pension plans. Us e of life annuities is\nlikely to be low, although no detailed data are available.\n\nThe level of annuitization is low in Australia but it is very difficult to obtain reliable\nestimates of the actual use of lifetime income streams. Readily available data show that\nlump sums have been declini ng steadily in recent years as a proportion of",
+          "metadata": {
+            "year": 2010,
+            "source": "WPS5288.pdf",
+            "is_empty": false,
+            "strategy": "fixed_128",
+            "char_count": 3387,
+            "char_length": 566,
+            "chunk_index": 4,
+            "document_id": "WPS5288",
+            "token_count": 128,
+            "document_type": "working_paper"
+          },
+          "is_hit": false
+        },
+        {
+          "rank": 3,
+          "chunk_id": "WPS5288_p37_c5",
+          "document_id": "WPS5288",
+          "page": 37,
+          "score": 0.6661383112114168,
+          "text": "as the PPM. There is a central agency in each plan to collect contributions and\norganize benefits and there are decentralized asset managers who are chosen by workers\nwho opt for unit-linked a nnuities. The main difference is th at occupational plan benefits\nare for the most part provided in the form of 5 or 10-year term annuities.",
+          "metadata": {
+            "year": 2010,
+            "source": "WPS5288.pdf",
+            "is_empty": false,
+            "strategy": "fixed_128",
+            "char_count": 3226,
+            "char_length": 333,
+            "chunk_index": 5,
+            "document_id": "WPS5288",
+            "token_count": 74,
+            "document_type": "working_paper"
+          },
+          "is_hit": false
+        }
+      ],
+      "type": "truc_tiep",
+      "filter_applied": null
+    },
+    {
+      "question_id": "q08",
+      "question": "What buffer mechanism supports the NDC scheme in Sweden?",
+      "split": "dev",
+      "hit_at_1": true,
+      "evidence_hit_at_3": true,
+      "top_hits": [
+        {
+          "rank": 1,
+          "chunk_id": "WPS5288_p12_c0",
+          "document_id": "WPS5288",
+          "page": 12,
+          "score": 0.6845362562494021,
+          "text": "6\nannuities are calculated with cohort life tables and a real rate of interest of 1.6 percent.\nThey are indexed to prices but are adjusted for real wage increases above 1.6 percent.\nThe NDC scheme is supported by five buffer funds that have been created since the\nintroduction of the general supplementary pension scheme (A TP) in 1960. The buffer\nfunds, known as AP funds 1 to 4 and 6, have accumulated assets equivalent to 30 percent\nof GDP.\n\nSwitzerland operates an earnings-related and unfunded first pillar. The contribution rate\nis 8.",
+          "metadata": {
+            "year": 2010,
+            "source": "WPS5288.pdf",
+            "is_empty": false,
+            "strategy": "fixed_128",
+            "char_count": 2137,
+            "char_length": 540,
+            "chunk_index": 0,
+            "document_id": "WPS5288",
+            "token_count": 128,
+            "document_type": "working_paper"
+          },
+          "is_hit": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "WPS5288_p11_c4",
+          "document_id": "WPS5288",
+          "page": 11,
+          "score": 0.6681622662350861,
+          "text": "Rudolph (2010); Rocha and Thorburn (2007); and Vittas (2008).\n\nSweden implemented a radical reform of its pension system in the mid-1990s. A new\npublic unfunded NDC scheme was introduced to replace the pre-existing flat and\nearnings-related (ATP) DB pensions. The cont ribution rate for the NDC scheme is 16\npercent of covered earnings . Out-of-employment spells are covered by government\ncontributions and thus most workers are likely to have full contri bution records. The\ntargeted replacement rate for people on average earnings and retiring",
+          "metadata": {
+            "year": 2010,
+            "source": "WPS5288.pdf",
+            "is_empty": false,
+            "strategy": "fixed_128",
+            "char_count": 2822,
+            "char_length": 545,
+            "chunk_index": 4,
+            "document_id": "WPS5288",
+            "token_count": 128,
+            "document_type": "working_paper"
+          },
+          "is_hit": false
+        },
+        {
+          "rank": 3,
+          "chunk_id": "WPS5288_p11_c2",
+          "document_id": "WPS5288",
+          "page": 11,
+          "score": 0.6359194355107072,
+          "text": "the combined benefits from the new NDC a nd FDC schemes. In Switzerland, benefits\nfrom the first pillar are subject to a minimum level that is about 18 percent of the average\nwage. However, an additional means-tested supplement is paid from general tax revenues\nto pensioners with no other sources of income . This is estimated at 6 percent of average\nearnings, bringing the level of the combined benefit to 24 percent of average earnings.\n\nOnly Sweden and Switzerland ha ve a first pillar (Table 4). Th ese are contributory public\nschemes with earnings-related benefits.\n\nTable 4: Structure",
+          "metadata": {
+            "year": 2010,
+            "source": "WPS5288.pdf",
+            "is_empty": false,
+            "strategy": "fixed_128",
+            "char_count": 2822,
+            "char_length": 591,
+            "chunk_index": 2,
+            "document_id": "WPS5288",
+            "token_count": 128,
+            "document_type": "working_paper"
+          },
+          "is_hit": false
+        }
+      ],
+      "type": "dien_dat_lai",
+      "filter_applied": null
+    },
+    {
+      "question_id": "q09",
+      "question": "What working paper series does WPS5288 belong to in the World Bank publications?",
+      "split": "dev",
+      "hit_at_1": true,
+      "evidence_hit_at_3": true,
+      "top_hits": [
+        {
+          "rank": 1,
+          "chunk_id": "WPS5288_p2_c0",
+          "document_id": "WPS5288",
+          "page": 2,
+          "score": 0.6774404048919678,
+          "text": "Produced by the Research Support T eam\nAbstract\nThe Policy Research Working Paper Series disseminates the findings of work in progress to encourage the exchange of ideas about development\nissues. An objective of the series is to get the findings out quickly, even if the presentations are less than fully polished. The papers carry the\nnames of the authors and should be cited accordingly. The findings, interpretations, and conclusions expressed in this paper are entirely those\nof the authors. They do not necessarily represent the views of the International Bank for Reconstruction and Development/World Bank and\nits affiliated organizations, or those of the Executive Directors of the World",
+          "metadata": {
+            "year": 2010,
+            "source": "WPS5288.pdf",
+            "is_empty": false,
+            "strategy": "fixed_128",
+            "char_count": 1853,
+            "char_length": 694,
+            "chunk_index": 0,
+            "document_id": "WPS5288",
+            "token_count": 128,
+            "document_type": "working_paper"
+          },
+          "is_hit": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "WPS5288_p1_c0",
+          "document_id": "WPS5288",
+          "page": 1,
+          "score": 0.6710715089951195,
+          "text": "Policy Research Working Paper 5288\nThe Payout Phase of Pension Systems\nA Comparison of Five Countries\nRoberto Rocha\nDimitri Vittas\nHeinz P . Rudolph\nThe World Bank\nFinancial and Private Sector Development\nNon Bank Financial Institutions Group\nApril 2010\nWPS5288\nPublic Disclosure Authorized\nPublic Disclosure Authorized\nPublic Disclosure Authorized\nPublic Disclosure Authorized",
+          "metadata": {
+            "year": 2010,
+            "source": "WPS5288.pdf",
+            "is_empty": false,
+            "strategy": "fixed_128",
+            "char_count": 377,
+            "char_length": 377,
+            "chunk_index": 0,
+            "document_id": "WPS5288",
+            "token_count": 82,
+            "document_type": "working_paper"
+          },
+          "is_hit": false
+        },
+        {
+          "rank": 3,
+          "chunk_id": "WPS5288_p56_c5",
+          "document_id": "WPS5288",
+          "page": 56,
+          "score": 0.5821071516211549,
+          "text": "Central and Eastern European Countries’, mimeo. Washington,\nD.C.: The World Bank.",
+          "metadata": {
+            "year": 2010,
+            "source": "WPS5288.pdf",
+            "is_empty": false,
+            "strategy": "fixed_128",
+            "char_count": 2049,
+            "char_length": 81,
+            "chunk_index": 5,
+            "document_id": "WPS5288",
+            "token_count": 18,
+            "document_type": "working_paper"
+          },
+          "is_hit": false
+        }
+      ],
+      "type": "filter",
+      "filter_applied": null
+    },
+    {
+      "question_id": "q10",
+      "question": "What factor accounts for mortality and longevity risk in programmed withdrawals according to the paper?",
+      "split": "dev",
+      "hit_at_1": false,
+      "evidence_hit_at_3": false,
+      "top_hits": [
+        {
+          "rank": 1,
+          "chunk_id": "WPS5288_p26_c2",
+          "document_id": "WPS5288",
+          "page": 26,
+          "score": 0.6518016665100069,
+          "text": "longevity risk.\n\nAlthough the choice of payout opt ions has not been restrict ed in Australia, allocated\nannuities have been subject to specified rules and restrictions. Until 2007 allocated\nannuities were subject to both a minimum and a maximum annuity conversion factor.\nFor a 65 year old beneficiary, the minimum annuity conversion factor was 6.37 percent in\n1998, while the maximum equaled 12.35 percent. 10 The maximum and minimum limits\ndecreased as people grew older. The maximu m payment per year aimed at ensuring that\nthe account balance would not be exhausted before reaching",
+          "metadata": {
+            "year": 2010,
+            "source": "WPS5288.pdf",
+            "is_empty": false,
+            "strategy": "fixed_128",
+            "char_count": 3111,
+            "char_length": 586,
+            "chunk_index": 2,
+            "document_id": "WPS5288",
+            "token_count": 128,
+            "document_type": "working_paper"
+          },
+          "is_hit": false
+        },
+        {
+          "rank": 2,
+          "chunk_id": "WPS5288_p25_c3",
+          "document_id": "WPS5288",
+          "page": 25,
+          "score": 0.6434024188874722,
+          "text": "withdrawals may fo llow the fixed benefit rule or the fixed\npercentage benefit rule. The latter is wide ly used by retirees who adopt self-annuitization\nplans. However, the most important type is the lifetime or life expectancy phased\nwithdrawal where the withdrawal fraction is each year set equal to the inverse of the\nremaining life expectancy of the account holde r or the remaining join t life expectancy of\nthe account holder and spouse if a joint benefit is specified.\n\nTable 8: Types of Term Annuities and Phased Withdrawals\nTypes and Terms\nAustralia Term annuities for 5 to 25 years",
+          "metadata": {
+            "year": 2010,
+            "source": "WPS5288.pdf",
+            "is_empty": false,
+            "strategy": "fixed_128",
+            "char_count": 3166,
+            "char_length": 591,
+            "chunk_index": 3,
+            "document_id": "WPS5288",
+            "token_count": 128,
+            "document_type": "working_paper"
+          },
+          "is_hit": false
+        },
+        {
+          "rank": 3,
+          "chunk_id": "WPS5288_p50_c5",
+          "document_id": "WPS5288",
+          "page": 50,
+          "score": 0.6422052979469299,
+          "text": "and longevity risk is more limite d. Fewer restrictions could be imposed on\nlump-sum withdrawals, although very liberal rules for lump-sums can hinder\nsignificantly the development of the market for retirement products, especially the market\nfor life annuities.\n\n23 This requirement was recently extended to a well-above-average life expectancy, limiting the exposure of\ngovernment funds to this risk.",
+          "metadata": {
+            "year": 2010,
+            "source": "WPS5288.pdf",
+            "is_empty": false,
+            "strategy": "fixed_128",
+            "char_count": 3115,
+            "char_length": 401,
+            "chunk_index": 5,
+            "document_id": "WPS5288",
+            "token_count": 79,
+            "document_type": "working_paper"
+          },
+          "is_hit": false
+        }
+      ],
+      "type": "truc_tiep",
+      "filter_applied": null
+    },
+    {
+      "question_id": "q11",
+      "question": "Under what condition does the Chilean government top up annuity payments?",
+      "split": "dev",
+      "hit_at_1": false,
+      "evidence_hit_at_3": false,
+      "top_hits": [
+        {
+          "rank": 1,
+          "chunk_id": "WPS5288_p22_c4",
+          "document_id": "WPS5288",
+          "page": 22,
+          "score": 0.6930636167526294,
+          "text": "(2008).\n\nChile also applies an extensive regulation to the use of life annuities. Until 2004, only\nfixed real life annuities (i.e., annuities linked to inflation) and annuities denominated in a\nforeign currency (mainly the US dollar) were permitted. Fixed nominal, escalating and\nvariable (bonus-based or unit-linked) annuiti es as well as term annuities were not\nallowed. However, in 2004 the use of a combina tion of a fixed real annuity equal to the\nPBS with either a variable annuity or a pr",
+          "metadata": {
+            "year": 2010,
+            "source": "WPS5288.pdf",
+            "is_empty": false,
+            "strategy": "fixed_128",
+            "char_count": 2609,
+            "char_length": 495,
+            "chunk_index": 4,
+            "document_id": "WPS5288",
+            "token_count": 128,
+            "document_type": "working_paper"
+          },
+          "is_hit": false
+        },
+        {
+          "rank": 2,
+          "chunk_id": "WPS5288_p22_c1",
+          "document_id": "WPS5288",
+          "page": 22,
+          "score": 0.6929393227660264,
+          "text": "Annuities\nPrice\nRegulation\nTypes and Terms\nAustralia None Various but little demand\nChile None Prior to 2004: Fixed real annuities;\njoint life annuities for men;\noption for guaranteed annuities (very popular)\n\nSince 2004: Option of combination of a fixed\nreal annuity (at least equal to PBS for normal\nage retirees and above 80% of PMAS and 70%\nof worker’s real wage for early retirees) and\neither a phased withdrawal or a variable\nannuity\nDenmark: ATP Unisex Life Tables 'Guarantee and Bonus'",
+          "metadata": {
+            "year": 2010,
+            "source": "WPS5288.pdf",
+            "is_empty": false,
+            "strategy": "fixed_128",
+            "char_count": 2609,
+            "char_length": 493,
+            "chunk_index": 1,
+            "document_id": "WPS5288",
+            "token_count": 128,
+            "document_type": "working_paper"
+          },
+          "is_hit": false
+        },
+        {
+          "rank": 3,
+          "chunk_id": "WPS5288_p25_c5",
+          "document_id": "WPS5288",
+          "page": 25,
+          "score": 0.6894833856513146,
+          "text": "ler and Ruesch (2007); Palmer\n(2008); Rocha and Rudolph (2010); Rocha and Thorburn (2007); and Vittas (2008).\n\nUse of lifetime phased withdrawals is compulso ry in Chile for retir ees with low account\nbalances, i.e., balances that cannot purchase an annuity that is at least equal to the PBS.\nIn these cases, the monthly withdrawal equals the PBS and when the account balance is\nexhausted, the government steps in and takes responsibility for continuing payments for\nthe remaining life of beneficiaries. The 2008 amendments to the",
+          "metadata": {
+            "year": 2010,
+            "source": "WPS5288.pdf",
+            "is_empty": false,
+            "strategy": "fixed_128",
+            "char_count": 3166,
+            "char_length": 530,
+            "chunk_index": 5,
+            "document_id": "WPS5288",
+            "token_count": 128,
+            "document_type": "working_paper"
+          },
+          "is_hit": false
+        }
+      ],
+      "type": "dieu_kien",
+      "filter_applied": null
+    },
+    {
+      "question_id": "q12",
+      "question": "What impeded the calculation of Money's Worth Ratios (MWRs) in Denmark and Sweden?",
+      "split": "dev",
+      "hit_at_1": true,
+      "evidence_hit_at_3": true,
+      "top_hits": [
+        {
+          "rank": 1,
+          "chunk_id": "WPS5288_p36_c0",
+          "document_id": "WPS5288",
+          "page": 36,
+          "score": 0.7300707101821899,
+          "text": "30\nof MWRs, while in Denmark and Sweden th e calculation was impeded by the lack of\ndata on ex ante and ex post bonus payments . Without detailed data on bonus payments,\nthe calculation of MWRs, based only on mini mum guaranteed benefits, would have been\nmeaningless.\n\nThe calculated MWRs are very high in bot h Chile and Switzerland. Joint life indexed\nannuities in Chile had a MWR of 1.078 in March 2004 when discounted by the\ngovernment bond yield curve and based on cohort annuitant tables. However, this fell to\n0.892 when",
+          "metadata": {
+            "year": 2010,
+            "source": "WPS5288.pdf",
+            "is_empty": false,
+            "strategy": "fixed_128",
+            "char_count": 2567,
+            "char_length": 527,
+            "chunk_index": 0,
+            "document_id": "WPS5288",
+            "token_count": 128,
+            "document_type": "working_paper"
+          },
+          "is_hit": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "WPS5288_p36_c3",
+          "document_id": "WPS5288",
+          "page": 36,
+          "score": 0.6559449639353189,
+          "text": "Switzerland 2004 1.152\nSwitzerland 2000 1.025\nSwitzerland* 0.985 0.875\nUK* 0.987 0.873\nUS* 0.929 0.841\nCanada* 0.980 0.868\n* See Rocha and Thorburn (2007:173) for details.\nSource: Buetler and Ruesch (2007) and Rocha and Thorburn (2007).\n\nThe MWRs in Chile and Switzerland compare favorably with those prevailing in other\ncountries and indicate that they may",
+          "metadata": {
+            "year": 2010,
+            "source": "WPS5288.pdf",
+            "is_empty": false,
+            "strategy": "fixed_128",
+            "char_count": 2567,
+            "char_length": 357,
+            "chunk_index": 3,
+            "document_id": "WPS5288",
+            "token_count": 128,
+            "document_type": "working_paper"
+          },
+          "is_hit": false
+        },
+        {
+          "rank": 3,
+          "chunk_id": "WPS5288_p36_c2",
+          "document_id": "WPS5288",
+          "page": 36,
+          "score": 0.6285177094627803,
+          "text": "much higher, the MWR stood at\n1.025 (the five-year bond rate equaled 3.80 percent in 2000 against 2.36 percent in 2004).\n\nTable 11: Money's Worth Ratios\nCountry\n\nJoint Life Annuities\nCohort Annuitant Tables\nGovernment Bond Rates\nJoint Life Annuities\nCohort Annuitant Tables\nCorporate Bond Rates\nIndexed\nChile 2004 1.078 0.892\nUK 0.880\n\nNominal\nSwitzerland 2004 1.152\nSwitzerland 2000",
+          "metadata": {
+            "year": 2010,
+            "source": "WPS5288.pdf",
+            "is_empty": false,
+            "strategy": "fixed_128",
+            "char_count": 2567,
+            "char_length": 383,
+            "chunk_index": 2,
+            "document_id": "WPS5288",
+            "token_count": 128,
+            "document_type": "working_paper"
+          },
+          "is_hit": false
+        }
+      ],
+      "type": "dien_dat_lai",
+      "filter_applied": null
+    },
+    {
+      "question_id": "q13",
+      "question": "Has the minimum return guarantee in Chile ever been called to protect workers from AFPs?",
+      "split": "dev",
+      "hit_at_1": false,
+      "evidence_hit_at_3": false,
+      "top_hits": [
+        {
+          "rank": 1,
+          "chunk_id": "WPS5288_p40_c5",
+          "document_id": "WPS5288",
+          "page": 40,
+          "score": 0.7451550820192562,
+          "text": "business.\n\nThe encaje is required to be invested in units of the same fund(s) in order to ensure an\nalignment of interests between the pens ion companies and their members. The encaje is\ndesigned to support the minimum relative rate of return guarantee that Chilean AFPs are\nrequired to observe. The guarantee initially spec ified that the average real rate of return\nof any company could not be lower than 50 pe rcent of the average of all AFPs over the\npreceding 12 months. The period of calculation was later extended to 36 months and was\nthen applied to each of the",
+          "metadata": {
+            "year": 2010,
+            "source": "WPS5288.pdf",
+            "is_empty": false,
+            "strategy": "fixed_128",
+            "char_count": 3441,
+            "char_length": 569,
+            "chunk_index": 5,
+            "document_id": "WPS5288",
+            "token_count": 128,
+            "document_type": "working_paper"
+          },
+          "is_hit": false
+        },
+        {
+          "rank": 2,
+          "chunk_id": "WPS5288_p40_c2",
+          "document_id": "WPS5288",
+          "page": 40,
+          "score": 0.6756397083020396,
+          "text": ", with or without defermen t periods) and on the types of risk-sharing\narrangements that are used. According to the 2008 amendments to the pension law,\npension fund administrators need to build re serves to account for the probability that\nindividuals may trigger the minimum return gua rantee. The formula for calculating PW\nincludes a fair actuarial factor, which translates into reserve accumulation.\n\nChile is the first country in the world that has mandated for the second pillar the use of\nretirement products with regular income str eams over the expected life of beneficiaries\n(in the form of life annuities",
+          "metadata": {
+            "year": 2010,
+            "source": "WPS5288.pdf",
+            "is_empty": false,
+            "strategy": "fixed_128",
+            "char_count": 3441,
+            "char_length": 615,
+            "chunk_index": 2,
+            "document_id": "WPS5288",
+            "token_count": 128,
+            "document_type": "working_paper"
+          },
+          "is_hit": false
+        },
+        {
+          "rank": 3,
+          "chunk_id": "WPS5288_p40_c6",
+          "document_id": "WPS5288",
+          "page": 40,
+          "score": 0.6471379609621798,
+          "text": "was later extended to 36 months and was\nthen applied to each of the five funds that A FPs were required to offer, while the spread\nbelow the average was differentiated by type of fund, being higher for the more volatile\nA and B funds. The encaje and the minimum relative retu rn guarantee are intended to",
+          "metadata": {
+            "year": 2010,
+            "source": "WPS5288.pdf",
+            "is_empty": false,
+            "strategy": "fixed_128",
+            "char_count": 3441,
+            "char_length": 304,
+            "chunk_index": 6,
+            "document_id": "WPS5288",
+            "token_count": 68,
+            "document_type": "working_paper"
+          },
+          "is_hit": false
+        }
+      ],
+      "type": "truc_tiep",
+      "filter_applied": null
+    },
+    {
+      "question_id": "q14",
+      "question": "Who bears the investment risk when life annuities are little developed in Australia?",
+      "split": "dev",
+      "hit_at_1": true,
+      "evidence_hit_at_3": true,
+      "top_hits": [
+        {
+          "rank": 1,
+          "chunk_id": "WPS5288_p46_c0",
+          "document_id": "WPS5288",
+          "page": 46,
+          "score": 0.8094007727682393,
+          "text": "40\nschemes. The investment risk has been tran sferred to workers, although pension funds\nand insurance companies retain some investme nt risk in connection with their capital\nguaranteed products. As life annuities are lit tle developed in Australia, retired workers\nbear the longevity risk.\n\nLife insurance companies and superannuation f unds are required to ha ve in place risk\nmanagement strategies and to develop risk mitigation and control policies. Segregation of\nduties and avoidance of conflicts of interest in assigning re sponsibilities are underscored\nas important components of internal c ontrol systems. But the preponderance",
+          "metadata": {
+            "year": 2010,
+            "source": "WPS5288.pdf",
+            "is_empty": false,
+            "strategy": "fixed_128",
+            "char_count": 3082,
+            "char_length": 637,
+            "chunk_index": 0,
+            "document_id": "WPS5288",
+            "token_count": 128,
+            "document_type": "working_paper"
+          },
+          "is_hit": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "WPS5288_p49_c0",
+          "document_id": "WPS5288",
+          "page": 49,
+          "score": 0.7138649437983321,
+          "text": "43\nuse of which has been growi ng in both Denmark and Swede n, the investment risk is\nborne by individual pensioners and only the longevity risk is shared by annuitants.\n\n5. Lessons for Other Countries\n\nPolicymakers in countries that have reformed or are planning to reform their pension\nsystems face several questions regarding the organization of the payout phase of the new\nsystems. The first question concerns the feasibility of creating a sound market for lifetime\nretirement products. The second concerns the ro le that restrictions on payout options can\nplay in promoting an ade quate level of annuitization. Other questions",
+          "metadata": {
+            "year": 2010,
+            "source": "WPS5288.pdf",
+            "is_empty": false,
+            "strategy": "fixed_128",
+            "char_count": 2988,
+            "char_length": 631,
+            "chunk_index": 0,
+            "document_id": "WPS5288",
+            "token_count": 128,
+            "document_type": "working_paper"
+          },
+          "is_hit": false
+        },
+        {
+          "rank": 3,
+          "chunk_id": "WPS5288_p48_c2",
+          "document_id": "WPS5288",
+          "page": 48,
+          "score": 0.7071265192963638,
+          "text": "overly expensive products\nand higher than anticipated profits, creating pressures for the sharing of excess profits\nwith annuitants and for price regulation. To avoid these problems annuity providers use\nrisk-sharing arrangements, whereby annuitant s share in the investment and longevity\nrisks.\n\nRisk-sharing arrangements are not formally used in the mandator y pillar of Switzerland.\nHowever, as already noted, the recent change in the uniform annuity conversion factor\nhas effectively introduced an inter-generational risk-sharing arrangement.\n\nIn Australia their use is limited to allocated annuities with capital guarantees. Risk-\nsharing arrangements were authorized in Chile in 2004",
+          "metadata": {
+            "year": 2010,
+            "source": "WPS5288.pdf",
+            "is_empty": false,
+            "strategy": "fixed_128",
+            "char_count": 3290,
+            "char_length": 689,
+            "chunk_index": 2,
+            "document_id": "WPS5288",
+            "token_count": 128,
+            "document_type": "working_paper"
+          },
+          "is_hit": false
+        }
+      ],
+      "type": "dien_dat_lai",
+      "filter_applied": null
+    },
+    {
+      "question_id": "q15",
+      "question": "Why should policies regarding lump-sum withdrawals vary significantly from country to country?",
+      "split": "dev",
+      "hit_at_1": true,
+      "evidence_hit_at_3": true,
+      "top_hits": [
+        {
+          "rank": 1,
+          "chunk_id": "WPS5288_p51_c0",
+          "document_id": "WPS5288",
+          "page": 51,
+          "score": 0.7789367205221469,
+          "text": "45\nThe appropriate policies in this area will vary significantly from country to country. In\nsome cases it may be appropriate to continue restricting lump-sums, but adopt a more\nliberal approach to the design of retireme nt products. For example, the regulation of\nphased withdrawals and term annuities may be more liberal, allowing designs that enable\na faster withdrawal of funds . Term annuities play an im portant part in Denmark and\nSweden and have a rapidly growing presen ce in Australia. Likewise, variable and\nadjustable annuities may be introduced without the obligation of a minimum fixed\nannuity",
+          "metadata": {
+            "year": 2010,
+            "source": "WPS5288.pdf",
+            "is_empty": false,
+            "strategy": "fixed_128",
+            "char_count": 3470,
+            "char_length": 607,
+            "chunk_index": 0,
+            "document_id": "WPS5288",
+            "token_count": 128,
+            "document_type": "working_paper"
+          },
+          "is_hit": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "WPS5288_p34_c5",
+          "document_id": "WPS5288",
+          "page": 34,
+          "score": 0.6867758836381403,
+          "text": "ities\nallows higher payouts in the first years of retirement. Th is responds to public demand,\nespecially in countries that have well developed national health systems.\n\nThe very high level of annuiti zation in Switzerland is partly explained by restrictions on\nlump-sum payments in plan rules that ma y have led to over-annuitization. The recent\ngovernment regulation that introduced an obligation to pension plans to offer an option of\na minimum 25 percent lump-sum payment is probably a response to public demand and\nan attempt to correct the emphasis on annuitization.\n\nThe Australian case is more intriguing. The strong role and rapid growth of",
+          "metadata": {
+            "year": 2010,
+            "source": "WPS5288.pdf",
+            "is_empty": false,
+            "strategy": "fixed_128",
+            "char_count": 3324,
+            "char_length": 649,
+            "chunk_index": 5,
+            "document_id": "WPS5288",
+            "token_count": 128,
+            "document_type": "working_paper"
+          },
+          "is_hit": false
+        },
+        {
+          "rank": 3,
+          "chunk_id": "WPS5288_p20_c1",
+          "document_id": "WPS5288",
+          "page": 20,
+          "score": 0.6849088464704527,
+          "text": "PPM No No No No No Yes No\nSweden: Other No Yes No Yes No Yes Yes\nSwitzerland Yes No No Yes No No No\n* Restricted lump sums are permitted.\nSources: Andersen and Skjodt (2007); Brunner and Thorburn (2008); Buetler and Ruesch (2007); Palmer\n(2008); Rocha and Rudolph (2010); Rocha and Thorburn (2007); and Vittas (2008).\n\nAustralia imposes no restrictio ns on payout options from th e second pillar. Lump sums,\nterm annuities, allocated annu",
+          "metadata": {
+            "year": 2010,
+            "source": "WPS5288.pdf",
+            "is_empty": false,
+            "strategy": "fixed_128",
+            "char_count": 2982,
+            "char_length": 438,
+            "chunk_index": 1,
+            "document_id": "WPS5288",
+            "token_count": 128,
+            "document_type": "working_paper"
+          },
+          "is_hit": false
+        }
+      ],
+      "type": "dieu_kien",
+      "filter_applied": null
+    },
+    {
+      "question_id": "q16",
+      "question": "Which department within the World Bank prepared the working paper on pension payout systems?",
+      "split": "test",
+      "hit_at_1": false,
+      "evidence_hit_at_3": true,
+      "top_hits": [
+        {
+          "rank": 1,
+          "chunk_id": "WPS5288_p7_c0",
+          "document_id": "WPS5288",
+          "page": 7,
+          "score": 0.8053413149511045,
+          "text": "1\nPreface\n\nThis paper on 'The Payout Phase of Pensi on Systems: A Comparis on of Five Countries'\nwas part of a broader project on life annuities and retireme nt products, coordinated by\nRoberto Rocha, Senior Adviser at the Fina nce and Private Sector Development in the\nMiddle East North Africa Region, and former Manager at the Financial and Private\nSector Development Vice-Presidency of the World Bank. The paper is published by\nGlobal Capital Markets Non Bank Instituti ons of the Financial and Private Sector\nDevelopment Vice-Presidency of the World Ba nk. The project",
+          "metadata": {
+            "year": 2010,
+            "source": "WPS5288.pdf",
+            "is_empty": false,
+            "strategy": "fixed_128",
+            "char_count": 2561,
+            "char_length": 572,
+            "chunk_index": 0,
+            "document_id": "WPS5288",
+            "token_count": 128,
+            "document_type": "working_paper"
+          },
+          "is_hit": false
+        },
+        {
+          "rank": 2,
+          "chunk_id": "WPS5288_p1_c0",
+          "document_id": "WPS5288",
+          "page": 1,
+          "score": 0.8037407153116392,
+          "text": "Policy Research Working Paper 5288\nThe Payout Phase of Pension Systems\nA Comparison of Five Countries\nRoberto Rocha\nDimitri Vittas\nHeinz P . Rudolph\nThe World Bank\nFinancial and Private Sector Development\nNon Bank Financial Institutions Group\nApril 2010\nWPS5288\nPublic Disclosure Authorized\nPublic Disclosure Authorized\nPublic Disclosure Authorized\nPublic Disclosure Authorized",
+          "metadata": {
+            "year": 2010,
+            "source": "WPS5288.pdf",
+            "is_empty": false,
+            "strategy": "fixed_128",
+            "char_count": 377,
+            "char_length": 377,
+            "chunk_index": 0,
+            "document_id": "WPS5288",
+            "token_count": 82,
+            "document_type": "working_paper"
+          },
+          "is_hit": true
+        },
+        {
+          "rank": 3,
+          "chunk_id": "WPS5288_p2_c1",
+          "document_id": "WPS5288",
+          "page": 2,
+          "score": 0.7867214210795523,
+          "text": "Bank and\nits affiliated organizations, or those of the Executive Directors of the World Bank or the governments they represent.\nPolicy Research Working Paper 5288\nThis paper provides a comparative summary of the\npayout phase of pension systems in five countries—\nAustralia, Chile, Denmark, Sweden, and Switzerland. All\nfive countries have large pension systems with mandatory\nor quasi-mandatory retirement savings schemes. But they\nexhibit important differences in the structure and role\nThis paper—a product of the Non Bank Financial Institutions Group, Global Capital Markets Development Department,\nFinancial and Private Sector Development—is part of a larger effort in the department to study",
+          "metadata": {
+            "year": 2010,
+            "source": "WPS5288.pdf",
+            "is_empty": false,
+            "strategy": "fixed_128",
+            "char_count": 1853,
+            "char_length": 696,
+            "chunk_index": 1,
+            "document_id": "WPS5288",
+            "token_count": 128,
+            "document_type": "working_paper"
+          },
+          "is_hit": false
+        }
+      ],
+      "type": "truc_tiep",
+      "filter_applied": null
+    },
+    {
+      "question_id": "q17",
+      "question": "What are the pillars of the national pension system summarized in Table 1?",
+      "split": "test",
+      "hit_at_1": false,
+      "evidence_hit_at_3": true,
+      "top_hits": [
+        {
+          "rank": 1,
+          "chunk_id": "WPS5288_p6_c0",
+          "document_id": "WPS5288",
+          "page": 6,
+          "score": 0.7870190974181624,
+          "text": "Tables\n\nTable 1: Structure of National Pension Systems ................................................................. 3\nTable 2: Overall Structure of the National Pension Systems .............................................. 3\nTable 3: Structure of Zero Pillars ........................................................................................ 4\nTable 4: Structure of First Pillars ........................................................................................ 5\nTable 5: Structure of Second Pillars ................................................................................... 8\nTable 6: Regulation of Payout Options ............................................................................. 14\nTable 7: Types of Life Annuities ...................................................................................... 16\nTable 8: Types of Term Annuities and Phased Withdrawals ........................................... 19",
+          "metadata": {
+            "year": 2010,
+            "source": "WPS5288.pdf",
+            "is_empty": false,
+            "strategy": "fixed_128",
+            "char_count": 2114,
+            "char_length": 951,
+            "chunk_index": 0,
+            "document_id": "WPS5288",
+            "token_count": 128,
+            "document_type": "working_paper"
+          },
+          "is_hit": false
+        },
+        {
+          "rank": 2,
+          "chunk_id": "WPS5288_p9_c0",
+          "document_id": "WPS5288",
+          "page": 9,
+          "score": 0.7868355512619019,
+          "text": "3\nTable 1: Structure of National Pension Systems\nCountry\n\nPillar\nZero\nPillar\nOne\nPillar\nTwo\nPillar\nThree\nAustralia\n\nX\nX X\nChile\n\nX\nX X\nDenmark\n\nX\nX X X\nSweden\n\nX\n\nX\n\nX X\n\nX\n\nSwitzerland\n\nX\n\nX\n\nX\n\nX\n\nSources: Andersen and Skjodt (2007); Brunner and Thorburn (2008); Buetler and Ruesch (2007); Palmer\n(2008); Rocha and Rudolph (",
+          "metadata": {
+            "year": 2010,
+            "source": "WPS5288.pdf",
+            "is_empty": false,
+            "strategy": "fixed_128",
+            "char_count": 2959,
+            "char_length": 326,
+            "chunk_index": 0,
+            "document_id": "WPS5288",
+            "token_count": 128,
+            "document_type": "working_paper"
+          },
+          "is_hit": true
+        },
+        {
+          "rank": 3,
+          "chunk_id": "WPS5288_p8_c3",
+          "document_id": "WPS5288",
+          "page": 8,
+          "score": 0.7683244943618774,
+          "text": "Overview of Pension Systems\n\n2.1 Overall Structure of Pension Systems\n\nAll five countries covered in this paper ha ve well-developed pension systems. As shown\nin Table 1, they all have a multi-pillar stru cture combining public a nd private provision,\nincluding a mandatory or quasi-mandatory privat e pillar. All countries have a zero public\npillar providing basic benefits, but the leve l of provision varies considerably. Only\nSweden and Switzerland have contributor y and earnings-related public schemes (first\npillars). Denmark and Sweden have supplementary public schemes, the ATP in Denmark\nand the PPM in Sweden, that are",
+          "metadata": {
+            "year": 2010,
+            "source": "WPS5288.pdf",
+            "is_empty": false,
+            "strategy": "fixed_128",
+            "char_count": 2919,
+            "char_length": 629,
+            "chunk_index": 3,
+            "document_id": "WPS5288",
+            "token_count": 128,
+            "document_type": "working_paper"
+          },
+          "is_hit": false
+        }
+      ],
+      "type": "dien_dat_lai",
+      "filter_applied": null
+    },
+    {
+      "question_id": "q18",
+      "question": "What year is recorded for the World Bank pension payout comparison study?",
+      "split": "test",
+      "hit_at_1": false,
+      "evidence_hit_at_3": true,
+      "top_hits": [
+        {
+          "rank": 1,
+          "chunk_id": "WPS5288_p2_c1",
+          "document_id": "WPS5288",
+          "page": 2,
+          "score": 0.7263194918632507,
+          "text": "Bank and\nits affiliated organizations, or those of the Executive Directors of the World Bank or the governments they represent.\nPolicy Research Working Paper 5288\nThis paper provides a comparative summary of the\npayout phase of pension systems in five countries—\nAustralia, Chile, Denmark, Sweden, and Switzerland. All\nfive countries have large pension systems with mandatory\nor quasi-mandatory retirement savings schemes. But they\nexhibit important differences in the structure and role\nThis paper—a product of the Non Bank Financial Institutions Group, Global Capital Markets Development Department,\nFinancial and Private Sector Development—is part of a larger effort in the department to study",
+          "metadata": {
+            "year": 2010,
+            "source": "WPS5288.pdf",
+            "is_empty": false,
+            "strategy": "fixed_128",
+            "char_count": 1853,
+            "char_length": 696,
+            "chunk_index": 1,
+            "document_id": "WPS5288",
+            "token_count": 128,
+            "document_type": "working_paper"
+          },
+          "is_hit": false
+        },
+        {
+          "rank": 2,
+          "chunk_id": "WPS5288_p1_c0",
+          "document_id": "WPS5288",
+          "page": 1,
+          "score": 0.7091412890981141,
+          "text": "Policy Research Working Paper 5288\nThe Payout Phase of Pension Systems\nA Comparison of Five Countries\nRoberto Rocha\nDimitri Vittas\nHeinz P . Rudolph\nThe World Bank\nFinancial and Private Sector Development\nNon Bank Financial Institutions Group\nApril 2010\nWPS5288\nPublic Disclosure Authorized\nPublic Disclosure Authorized\nPublic Disclosure Authorized\nPublic Disclosure Authorized",
+          "metadata": {
+            "year": 2010,
+            "source": "WPS5288.pdf",
+            "is_empty": false,
+            "strategy": "fixed_128",
+            "char_count": 377,
+            "char_length": 377,
+            "chunk_index": 0,
+            "document_id": "WPS5288",
+            "token_count": 82,
+            "document_type": "working_paper"
+          },
+          "is_hit": true
+        },
+        {
+          "rank": 3,
+          "chunk_id": "WPS5288_p7_c0",
+          "document_id": "WPS5288",
+          "page": 7,
+          "score": 0.6982454061508179,
+          "text": "1\nPreface\n\nThis paper on 'The Payout Phase of Pensi on Systems: A Comparis on of Five Countries'\nwas part of a broader project on life annuities and retireme nt products, coordinated by\nRoberto Rocha, Senior Adviser at the Fina nce and Private Sector Development in the\nMiddle East North Africa Region, and former Manager at the Financial and Private\nSector Development Vice-Presidency of the World Bank. The paper is published by\nGlobal Capital Markets Non Bank Instituti ons of the Financial and Private Sector\nDevelopment Vice-Presidency of the World Ba nk. The project",
+          "metadata": {
+            "year": 2010,
+            "source": "WPS5288.pdf",
+            "is_empty": false,
+            "strategy": "fixed_128",
+            "char_count": 2561,
+            "char_length": 572,
+            "chunk_index": 0,
+            "document_id": "WPS5288",
+            "token_count": 128,
+            "document_type": "working_paper"
+          },
+          "is_hit": false
+        }
+      ],
+      "type": "filter",
+      "filter_applied": null
+    },
+    {
+      "question_id": "q19",
+      "question": "How are Swedish NDC annuities adjusted when real wage increases exceed 1.6 percent?",
+      "split": "test",
+      "hit_at_1": true,
+      "evidence_hit_at_3": true,
+      "top_hits": [
+        {
+          "rank": 1,
+          "chunk_id": "WPS5288_p12_c0",
+          "document_id": "WPS5288",
+          "page": 12,
+          "score": 0.6999332904815674,
+          "text": "6\nannuities are calculated with cohort life tables and a real rate of interest of 1.6 percent.\nThey are indexed to prices but are adjusted for real wage increases above 1.6 percent.\nThe NDC scheme is supported by five buffer funds that have been created since the\nintroduction of the general supplementary pension scheme (A TP) in 1960. The buffer\nfunds, known as AP funds 1 to 4 and 6, have accumulated assets equivalent to 30 percent\nof GDP.\n\nSwitzerland operates an earnings-related and unfunded first pillar. The contribution rate\nis 8.",
+          "metadata": {
+            "year": 2010,
+            "source": "WPS5288.pdf",
+            "is_empty": false,
+            "strategy": "fixed_128",
+            "char_count": 2137,
+            "char_length": 540,
+            "chunk_index": 0,
+            "document_id": "WPS5288",
+            "token_count": 128,
+            "document_type": "working_paper"
+          },
+          "is_hit": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "WPS5288_p11_c5",
+          "document_id": "WPS5288",
+          "page": 11,
+          "score": 0.6674738526344299,
+          "text": "ion records. The\ntargeted replacement rate for people on average earnings and retiring at normal retirement\nage amounts to 39 percent.\n\nIn the NDC scheme, the retireme nt decision is left to indi vidual workers (within certain\nlimits) but the pension benefit is adjusted to take account of the remaining life expectancy\non retirement. NDC balances earn notional in terest at 1.6 percent in real terms and NDC",
+          "metadata": {
+            "year": 2010,
+            "source": "WPS5288.pdf",
+            "is_empty": false,
+            "strategy": "fixed_128",
+            "char_count": 2822,
+            "char_length": 408,
+            "chunk_index": 5,
+            "document_id": "WPS5288",
+            "token_count": 91,
+            "document_type": "working_paper"
+          },
+          "is_hit": false
+        },
+        {
+          "rank": 3,
+          "chunk_id": "WPS5288_p11_c4",
+          "document_id": "WPS5288",
+          "page": 11,
+          "score": 0.6668415069580078,
+          "text": "Rudolph (2010); Rocha and Thorburn (2007); and Vittas (2008).\n\nSweden implemented a radical reform of its pension system in the mid-1990s. A new\npublic unfunded NDC scheme was introduced to replace the pre-existing flat and\nearnings-related (ATP) DB pensions. The cont ribution rate for the NDC scheme is 16\npercent of covered earnings . Out-of-employment spells are covered by government\ncontributions and thus most workers are likely to have full contri bution records. The\ntargeted replacement rate for people on average earnings and retiring",
+          "metadata": {
+            "year": 2010,
+            "source": "WPS5288.pdf",
+            "is_empty": false,
+            "strategy": "fixed_128",
+            "char_count": 2822,
+            "char_length": 545,
+            "chunk_index": 4,
+            "document_id": "WPS5288",
+            "token_count": 128,
+            "document_type": "working_paper"
+          },
+          "is_hit": false
+        }
+      ],
+      "type": "dieu_kien",
+      "filter_applied": null
+    },
+    {
+      "question_id": "q20",
+      "question": "How do self-employed and high-income professionals benefit regarding pension regulation in the second pillar?",
+      "split": "test",
+      "hit_at_1": true,
+      "evidence_hit_at_3": true,
+      "top_hits": [
+        {
+          "rank": 1,
+          "chunk_id": "WPS5288_p16_c0",
+          "document_id": "WPS5288",
+          "page": 16,
+          "score": 0.7980727195165376,
+          "text": "10\nparticularly powerful in the case of high-income professiona ls and other self-employed\npeople. They also benefit from greater i nvestment freedom and a lighter regulatory\nburden.\n\nThe high level of annual contributions combined with high investment returns and at least\ninitially low levels of benef its have resulted in a large accumulation of retirement assets.\nAvailable data do not allow a clear identification of assets that have been accumulated on\nbehalf of active workers and those that support the payout phase. In addition, the statistics\non third pillar assets are not comprehensively and separately identified in all countries.\n\nTotal assets in the second pillar range fr om",
+          "metadata": {
+            "year": 2010,
+            "source": "WPS5288.pdf",
+            "is_empty": false,
+            "strategy": "fixed_128",
+            "char_count": 2006,
+            "char_length": 690,
+            "chunk_index": 0,
+            "document_id": "WPS5288",
+            "token_count": 128,
+            "document_type": "working_paper"
+          },
+          "is_hit": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "WPS5288_p15_c4",
+          "document_id": "WPS5288",
+          "page": 15,
+          "score": 0.6771831906681329,
+          "text": "(2007); and Vittas (2008).\n\nAll countries have third pillars providing additional benefits and offering provision to the\nself-employed and other workers that are not covered by the mandatory and quasi-\nmandatory second pillars. There are some diffe rences in the organi zation of voluntary\narrangements but available information doe s not provide a detail ed picture of the\nstructure of third pillars. Voluntary sche mes benefit from tax incentives that are",
+          "metadata": {
+            "year": 2010,
+            "source": "WPS5288.pdf",
+            "is_empty": false,
+            "strategy": "fixed_128",
+            "char_count": 2302,
+            "char_length": 457,
+            "chunk_index": 4,
+            "document_id": "WPS5288",
+            "token_count": 93,
+            "document_type": "working_paper"
+          },
+          "is_hit": false
+        },
+        {
+          "rank": 3,
+          "chunk_id": "WPS5288_p9_c3",
+          "document_id": "WPS5288",
+          "page": 9,
+          "score": 0.672424911937878,
+          "text": "pension fund\nadministrators (AFPs).\nVoluntary plans for additional\nprovision and for self-employed\nworkers. Offered by Pillar 2\npension funds and other\nfinancial institutions.\nDenmark (1) Universal pension financed\nfrom general tax revenues.\n(2) Supplement to low-income\npensioners.\nBoth benefits are subject to\nclawback provisions.\n(1) Public schemes (mainly\nATP) operating DC plans.\n(2) Occupational funds and\ninsurance companies operating\nmostly DC plans, based on\ncollective agreements.\nVoluntary plans for workers not\ncovered by labor agreements",
+          "metadata": {
+            "year": 2010,
+            "source": "WPS5288.pdf",
+            "is_empty": false,
+            "strategy": "fixed_128",
+            "char_count": 2959,
+            "char_length": 550,
+            "chunk_index": 3,
+            "document_id": "WPS5288",
+            "token_count": 128,
+            "document_type": "working_paper"
+          },
+          "is_hit": false
+        }
+      ],
+      "type": "dien_dat_lai",
+      "filter_applied": null
+    }
+  ]
+}

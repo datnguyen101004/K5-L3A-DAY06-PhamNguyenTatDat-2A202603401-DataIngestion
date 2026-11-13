@@ -1,0 +1,236 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Which five countries are compared in this study of pension payout phases?",
+    "expected_answer": "Australia, Chile, Denmark, Sweden, and Switzerland",
+    "gold_source_id": "WPS5288",
+    "gold_page": 8,
+    "evidence_quote": "All five countries (Australia, Chile, Denmark, Sw eden, and Switzerland) have large pension",
+    "filter": null
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Who are the authors of the Policy Research Working Paper 5288?",
+    "expected_answer": "Roberto Rocha, Dimitri Vittas, and Heinz P. Rudolph",
+    "gold_source_id": "WPS5288",
+    "gold_page": 1,
+    "evidence_quote": "Roberto Rocha Dimitri Vittas Heinz P . Rudolph",
+    "filter": null
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "When was the Policy Research Working Paper 5288 published?",
+    "expected_answer": "April 2010",
+    "gold_source_id": "WPS5288",
+    "gold_page": 1,
+    "evidence_quote": "April 2010",
+    "filter": {
+      "year": 2010
+    }
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Why is the fiscal cost of public retirement pensions lower in Australia compared to other countries?",
+    "expected_answer": "Because the age pension level is smaller and the Australian population is significantly younger.",
+    "gold_source_id": "WPS5288",
+    "gold_page": 13,
+    "evidence_quote": "The cost of public pensions is lower in Australia because the level of the age pension is much smaller and the population is significantly younger.",
+    "filter": null
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "What real rate of interest is used to calculate NDC annuities in Sweden?",
+    "expected_answer": "1.6 percent",
+    "gold_source_id": "WPS5288",
+    "gold_page": 12,
+    "evidence_quote": "annuities are calculated with cohort life tables and a real rate of interest of 1.6 percent.",
+    "filter": null
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "type": "dieu_kien",
+    "question": "How is the distortion of using identical conversion factors for men and women alleviated in Switzerland?",
+    "expected_answer": "By the compulsory use of joint life annuities.",
+    "gold_source_id": "WPS5288",
+    "gold_page": 22,
+    "evidence_quote": "the distortion of applying the same convers ion factor to men and women is mitigated by the compulsory use of joint life annuities.",
+    "filter": null
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Are occupational plans in Australia active providers of annuities?",
+    "expected_answer": "No, occupational plans in Australia are not active providers of annuities.",
+    "gold_source_id": "WPS5288",
+    "gold_page": 28,
+    "evidence_quote": "Australia Occupational plans are not active providers of annuities.",
+    "filter": {
+      "section": "product_regulation"
+    }
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "What buffer mechanism supports the NDC scheme in Sweden?",
+    "expected_answer": "Five buffer funds created since the 1960s.",
+    "gold_source_id": "WPS5288",
+    "gold_page": 12,
+    "evidence_quote": "The NDC scheme is supported by five buffer funds that have been created since the",
+    "filter": null
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "type": "filter",
+    "question": "What working paper series does WPS5288 belong to in the World Bank publications?",
+    "expected_answer": "Policy Research Working Paper Series",
+    "gold_source_id": "WPS5288",
+    "gold_page": 2,
+    "evidence_quote": "The Policy Research Working Paper Series disseminates the findings of work in progress",
+    "filter": {
+      "document_type": "working_paper"
+    }
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "What factor accounts for mortality and longevity risk in programmed withdrawals according to the paper?",
+    "expected_answer": "A fair actuarial factor.",
+    "gold_source_id": "WPS5288",
+    "gold_page": 11,
+    "evidence_quote": "require that the calculation of PWs include a fa ir actuarial factor to account for this risk.",
+    "filter": null
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "type": "dieu_kien",
+    "question": "Under what condition does the Chilean government top up annuity payments?",
+    "expected_answer": "When annuity payments fall below the PBS (Pension Basica Solidaria) level.",
+    "gold_source_id": "WPS5288",
+    "gold_page": 11,
+    "evidence_quote": "The government also tops up any annuity payments that fall below the PBS level.",
+    "filter": null
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "What impeded the calculation of Money's Worth Ratios (MWRs) in Denmark and Sweden?",
+    "expected_answer": "The lack of data on ex ante and ex post bonus payments.",
+    "gold_source_id": "WPS5288",
+    "gold_page": 36,
+    "evidence_quote": "while in Denmark and Sweden th e calculation was impeded by the lack of data on ex ante and ex post bonus payments .",
+    "filter": null
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Has the minimum return guarantee in Chile ever been called to protect workers from AFPs?",
+    "expected_answer": "The guarantee has never been called.",
+    "gold_source_id": "WPS5288",
+    "gold_page": 41,
+    "evidence_quote": "They have been effective in forcing AFPs to stay close to the average of the industry. The guarantee has never been called.",
+    "filter": {
+      "section": "provider_regulation"
+    }
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Who bears the investment risk when life annuities are little developed in Australia?",
+    "expected_answer": "Retired workers bear the investment and longevity risks.",
+    "gold_source_id": "WPS5288",
+    "gold_page": 46,
+    "evidence_quote": "The investment risk has been tran sferred to workers, although pension funds and insurance companies retain some investme nt risk",
+    "filter": null
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "type": "dieu_kien",
+    "question": "Why should policies regarding lump-sum withdrawals vary significantly from country to country?",
+    "expected_answer": "Because restricting lump-sums or adopting liberal designs depends on national pension structures and coverage.",
+    "gold_source_id": "WPS5288",
+    "gold_page": 51,
+    "evidence_quote": "The appropriate policies in this area will vary significantly from country to country. In some cases it may be appropriate to continue restricting lump-sums",
+    "filter": {
+      "section": "lessons"
+    }
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "type": "truc_tiep",
+    "question": "Which department within the World Bank prepared the working paper on pension payout systems?",
+    "expected_answer": "Financial and Private Sector Development, Non Bank Financial Institutions Group",
+    "gold_source_id": "WPS5288",
+    "gold_page": 1,
+    "evidence_quote": "Financial and Private Sector Development Non Bank Financial Institutions Group",
+    "filter": null
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "type": "dien_dat_lai",
+    "question": "What are the pillars of the national pension system summarized in Table 1?",
+    "expected_answer": "Pillar Zero, Pillar One, Pillar Two, and Pillar Three",
+    "gold_source_id": "WPS5288",
+    "gold_page": 9,
+    "evidence_quote": "Table 1: Structure of National Pension Systems Country Pillar Zero Pillar One Pillar Two Pillar Three",
+    "filter": null
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "type": "filter",
+    "question": "What year is recorded for the World Bank pension payout comparison study?",
+    "expected_answer": "2010",
+    "gold_source_id": "WPS5288",
+    "gold_page": 1,
+    "evidence_quote": "April 2010",
+    "filter": {
+      "year": 2010
+    }
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "type": "dieu_kien",
+    "question": "How are Swedish NDC annuities adjusted when real wage increases exceed 1.6 percent?",
+    "expected_answer": "They are indexed to prices and adjusted for real wage increases above 1.6 percent.",
+    "gold_source_id": "WPS5288",
+    "gold_page": 12,
+    "evidence_quote": "They are indexed to prices but are adjusted for real wage increases above 1.6 percent.",
+    "filter": {
+      "section": "overview"
+    }
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "type": "dien_dat_lai",
+    "question": "How do self-employed and high-income professionals benefit regarding pension regulation in the second pillar?",
+    "expected_answer": "They benefit from greater investment freedom and a lighter regulatory burden.",
+    "gold_source_id": "WPS5288",
+    "gold_page": 16,
+    "evidence_quote": "They also benefit from greater i nvestment freedom and a lighter regulatory burden.",
+    "filter": null
+  }
+]

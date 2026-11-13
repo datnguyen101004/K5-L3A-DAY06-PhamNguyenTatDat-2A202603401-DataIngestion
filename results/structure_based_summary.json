@@ -1,0 +1,46 @@
+{
+  "strategy": "structure_based",
+  "document_id": "WPS5288",
+  "source": "WPS5288.pdf",
+  "total_pages": 56,
+  "content_pages": 56,
+  "total_chunks": 118,
+  "total_tokens": 32010,
+  "avg_tokens_per_chunk": 271.27,
+  "total_chars": 150864,
+  "embedding_model": "qwen3.7-text-embedding",
+  "embedding_dimensions": 1024,
+  "embedding_time_seconds": 23.36,
+  "sample_chunks": [
+    {
+      "chunk_id": "WPS5288_p1_s0",
+      "page": 1,
+      "token_count": 82,
+      "text": "Policy Research Working Paper 5288\nThe Payout Phase of Pension Systems\nA Comparison of Five Countries\nRoberto Rocha\nDimitri Vittas\nHeinz P . Rudolph\nThe World Bank\nFinancial and Private Sector Develop..."
+    },
+    {
+      "chunk_id": "WPS5288_p2_s0",
+      "page": 2,
+      "token_count": 357,
+      "text": "Produced by the Research Support T eam\nAbstract\nThe Policy Research Working Paper Series disseminates the findings of work in progress to encourage the exchange of ideas about development\nissues. An o..."
+    },
+    {
+      "chunk_id": "WPS5288_p3_s0",
+      "page": 3,
+      "token_count": 54,
+      "text": "Non Bank Financial Institutions Group\nGlobal Capital Markets Development Department\nFinancial and Private Sector Development\nThe World Bank\n\nThe Payout Phase of Pension Systems:\nA Comparison of Five C..."
+    },
+    {
+      "chunk_id": "WPS5288_p5_s0",
+      "page": 5,
+      "token_count": 391,
+      "text": "Table of Contents\n\nPreface ................................................................................................................................. 1\n1. Introduction ............................"
+    },
+    {
+      "chunk_id": "WPS5288_p6_s0",
+      "page": 6,
+      "token_count": 294,
+      "text": "Tables\n\nTable 1: Structure of National Pension Systems ................................................................. 3\nTable 2: Overall Structure of the National Pension Systems ....................."
+    }
+  ]
+}
